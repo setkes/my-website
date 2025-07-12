@@ -24,6 +24,7 @@ export default function Projects() {
             description: "An API fetching application that allows users to search and view details about Pokémon, built with React.js.",
             technologies: ["React.js","PokéAPI", "CSS", "HTML"],
             github: "https://github.com/setkes/Pokemon-Fetch-App",
+            demo: "https://pokemon-fetch-1qyv7wb4i-alessandro-montis-projects.vercel.app/"
         },
         {
             id: 2,
@@ -123,6 +124,18 @@ export default function Projects() {
                             </div>
                         </div>
                     ))}
+                </div>
+
+                {/* See others link */}
+                <div className="mt-8 text-center">
+                    <a
+                        href="https://github.com/setkes?tab=repositories"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 hover:text-black transition-colors text-sm"
+                    >
+                        See others 
+                    </a>
                 </div>
 
                 {/* Navigation */}
